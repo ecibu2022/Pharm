@@ -19,10 +19,10 @@
         <ImageView
             android:id="@+id/drug_image"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_weight="1"
+            android:layout_height="250dp"
             android:scaleType="fitXY"
-            android:src="@drawable/upload"/>
+            android:src="@drawable/upload"
+            android:contentDescription="@string/Shop" />
 
         <TextView
             android:id="@+id/drug_name"
@@ -30,8 +30,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:text="@string/drug"
-            android:textAlignment="center"
-            android:textSize="12sp"
+            android:textSize="18sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -40,8 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:text="@string/price"
-            android:textAlignment="center"
-            android:textSize="12sp"
+            android:textSize="18sp"
             android:textStyle="bold"/>
 
         <TextView
@@ -50,33 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="2dp"
             android:text="@string/drug_description"
-            android:textAlignment="center"
-            android:textSize="12sp"/>
-
-        <TextView
-            android:id="@+id/child"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
-            android:text="@string/child"
-            android:textAlignment="center"
-            android:textSize="12sp"/>
-
-        <TextView
-            android:id="@+id/old"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="2dp"
-            android:text="@string/old"
-            android:textAlignment="center"
-            android:textSize="12sp"/>
-
-        <Button
-            android:id="@+id/edit_drug"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/login_blue"
-            android:text="Edit"/>
+            android:textSize="16sp"/>
 
     </LinearLayout>
 

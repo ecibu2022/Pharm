@@ -1,36 +1,26 @@
 {
   "project_info": {
-    "project_number": "648550015751",
-    "project_id": "pharm-22db9",
-    "storage_bucket": "pharm-22db9.appspot.com"
+    "project_number": "64543998900",
+    "project_id": "electronics-4ecff",
+    "storage_bucket": "electronics-4ecff.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:648550015751:android:015c84b4e9794ca4c5dba2",
+        "mobilesdk_app_id": "1:64543998900:android:27f690cbd276a1fbc9e8e1",
         "android_client_info": {
-          "package_name": "com.example.pharm"
+          "package_name": "com.example.electronics"
         }
       },
-      "oauth_client": [
-        {
-          "client_id": "648550015751-tov33paseqnam2lt10e7opd9kpr339tf.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
+      "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDiv-bDYsatiR72plOkzVOdD0vroUkT-s8"
+          "current_key": "AIzaSyCN3Aqs3DlY3b3CyQWhiBLN5Zr8fKjH5WA"
         }
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "648550015751-tov33paseqnam2lt10e7opd9kpr339tf.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

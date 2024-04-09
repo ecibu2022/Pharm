@@ -15,9 +15,11 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registered Pharmacies"
-            android:textStyle="bold"
+            android:text="Registered Electronic Shops"
+            android:textSize="20sp"
             android:textColor="@color/white"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
             android:textAlignment="center"
             android:layout_marginTop="5dp"/>
 

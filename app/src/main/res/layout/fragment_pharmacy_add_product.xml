@@ -18,9 +18,11 @@
             android:layout_height="50dp"
             android:gravity="center"
             android:text="@string/add_drug"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
             android:textColor="@color/white"
             android:background="@color/login_blue"
-            android:textSize="18sp" />
+            android:textSize="20sp" />
 
         <com.google.android.material.textfield.TextInputLayout
 
@@ -29,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="32dp"
             android:hint="@string/drug">
 
@@ -47,13 +49,13 @@
             android:layout_height="wrap_content"
             android:text="@string/drug_image"
             android:layout_marginStart="32dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginEnd="32dp"/>
 
         <ImageView
             android:id="@+id/drug_image"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
+            android:layout_height="200dp"
             android:src="@drawable/upload"
             android:scaleType="fitXY"
             android:layout_marginStart="32dp"
@@ -78,45 +80,6 @@
                 android:inputType="textMultiLine" />
 
         </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:hint="@string/child">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/child"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="32dp"
-            android:layout_marginTop="8dp"
-            android:layout_marginEnd="32dp"
-            android:hint="@string/old">
-
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/old"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textMultiLine" />
-
-        </com.google.android.material.textfield.TextInputLayout>
-
 
         <com.google.android.material.textfield.TextInputLayout
 

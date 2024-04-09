@@ -24,7 +24,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="32dp"
-        android:hint="@string/pharmacy">
+        android:hint="@string/Shop">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/pharmacy"
